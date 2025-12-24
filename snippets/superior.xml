@@ -169,10 +169,10 @@
   <project path="art" name="android_art" remote="next" revision="QPR3" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="next" revision="QPR3" />
   <project path="manifest" name="manifest" remote="next" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="next" revision="QPR3" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="next" revision="QPR3" />
+  <project path="frameworks/av" name="k4ngcaribug/android_frameworks_av" remote="github" revision="QPR3" />
+  <project path="frameworks/base" name="k4ngcaribug/android_frameworks_base" remote="github" revision="QPR3" />
   <project path="frameworks/native" name="android_frameworks_native" remote="next" revision="QPR3" />
-  <project path="vendor/superior" name="android_vendor_superior" remote="next" revision="QPR3" />
+  <project path="vendor/superior" name="k4ngcaribug/android_vendor_superior" remote="github" revision="QPR3" />
   <project path="vendor/support" name="android_vendor_support" remote="next" revision="QPR3" />
   <project path="vendor/prebuilts" name="android_vendor_prebuilts" remote="next" revision="QPR3" />
   <project path="device/superior/sepolicy" name="android_device_superior_sepolicy" remote="next" revision="QPR3" />

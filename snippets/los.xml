@@ -96,16 +96,27 @@
 
   <!-- Display HALS -->
   <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" revision="lineage-20.0-caf-sdm845" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="lineage-19.1-caf-sm8150" remote="lineage" />
+  <project path="hardware/qcom-caf/sm8150/display" name="superioros-thirteen/android_hardware_qcom_display" revision="thirteen" remote="github" />
   <project path="hardware/qcom-caf/sm8450/display" name="LineageOS/android_hardware_qcom_display" groups="qcom" revision="lineage-20.0-caf-sm8450" remote="github" />
 
   <!-- Media HALS -->
   <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" revision="lineage-20.0-caf-sdm845" remote="lineage" />
-  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" revision="lineage-19.1-caf-sm8150" remote="lineage" />
+  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" revision="lineage-20.0-caf-sm8150" remote="lineage" />
   <project path="hardware/qcom-caf/sm8450/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,waipio-vendor" revision="lineage-20.0-caf-sm8450" remote="github" />
 
   <!-- system repos -->
   <project path="system/qcom" name="android_system_qcom" revision="lineage-20" remote="lineage" />
   <project path="system/timezone" name="android_system_timezone" revision="lineage-20.0" remote="lineage" />
+
+   <!-- Webview -->
+  <project path="external/chromium-webview/patches" name="android_external_chromium-webview_patches" groups="pdk" revision="main" remote="lineage" >
+    <linkfile src="os_pickup.mk" dest="external/chromium-webview/Android.mk" />
+    <linkfile src="CleanSpec.mk" dest="external/chromium-webview/CleanSpec.mk" />
+    <linkfile src="README" dest="external/chromium-webview/README" />
+  </project>
+  <project path="external/chromium-webview/prebuilt/arm" name="android_external_chromium-webview_prebuilt_arm" groups="pdk" revision="main" remote="lineage" />
+  <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" groups="pdk" revision="main" remote="lineage" />
+  <project path="external/chromium-webview/prebuilt/x86" name="android_external_chromium-webview_prebuilt_x86" groups="pdk" revision="main" remote="lineage" />
+  <project path="external/chromium-webview/prebuilt/x86_64" name="android_external_chromium-webview_prebuilt_x86_64" groups="pdk" revision="main" remote="lineage" />
 
 </manifest>
