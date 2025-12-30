@@ -96,7 +96,6 @@
   <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="hw" revision="QPR3" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="hw" revision="QPR3" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="hw" revision="QPR3" />
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="hw" revision="QPR3"/>
 
   <!-- Qcom hals -->
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="hw" revision="QPR3" />
